@@ -6,5 +6,16 @@
 	5B866F : Dark Green */ 
 
 body{
-	background-color: purple;
+	background-color: FFFBF9;
+}
+
+/* Nav bar */
+.nav-ef{
+	font-family: 'Playfair';font-size: 22px;
+	letter-spacing: .2rem;
+
+}
+
+.nav-link{
+	font-family: 'Lato';
 }
