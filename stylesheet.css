@@ -13,6 +13,7 @@ h1{
 	font-size: 96px;
 	font-family: 'Playfair Display';
 	text-align: center;
+	padding: 0px 0px 50px;
 }
 h2{
 	background-color: #333232;
@@ -21,8 +22,17 @@ h2{
 	font-family: 'Playfair Display';
 	color: #FFFBF9;
 }
+h3{
+	padding: 3px;
+	font-size: 40px;
+	font-family: 'Playfair Display';
+}
 
-p{}
+p{
+	font-size: 20px;
+	font-family: 'Lato';
+	text-align: left;
+}
 
 a{
 	text-decoration: none;
@@ -145,6 +155,7 @@ a.green-link{
 	color: #5B866F;
 	text-decoration: none;
 	font-family: 'Lato';
+	font-size: 20px;
 }
 a.green-link:hover{
 	text-decoration: underline;
