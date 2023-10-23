@@ -9,11 +9,34 @@
 body{
 	background-color: #FFFBF9;}
 
+h1{
+	font-size: 96px;
+	font-family: 'Playfair Display';
+	text-align: center;
+}
+h2{
+	background-color: #333232;
+	padding: 3px;
+	font-size: 40px;
+	font-family: 'Playfair Display';
+	color: #FFFBF9;
+}
+
 p{}
 
 a{
 	text-decoration: none;
 	color: inherit;}
+
+#red{
+	background-color: pink;
+}
+#blue{
+	background-color: lightblue;
+}
+#orange{
+	background-color: orange;
+}
 
 /* ------------------------Nav bar----------------------- */
 .nav-ef{
@@ -103,6 +126,33 @@ footer{
 	height: 20px;
 }
 
+/*------------------------Projects--------------------*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.p-img{
+	width: 100%;
+}
+.p-imgc{
+  max-width: 630px;
+  margin: auto;
+  border: 3px solid #73AD21;
+}
+a.green-link{
+	color: #5B866F;
+	text-decoration: none;
+	font-family: 'Lato';
+}
+a.green-link:hover{
+	text-decoration: underline;
+}
+
+.project-spacer{
+	height: 30px;
+}
 /*------------------Contact------------------------------*/
 a#linkedin{
 	color: #5B866F;
