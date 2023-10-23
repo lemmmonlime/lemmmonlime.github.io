@@ -102,3 +102,28 @@ footer{
 #footer-top-bottom{
 	height: 20px;
 }
+
+/*------------------Contact------------------------------*/
+a#linkedin{
+	color: #5B866F;
+	text-decoration: none;
+}
+
+a#linkedin:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
