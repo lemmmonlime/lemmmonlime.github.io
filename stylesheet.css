@@ -1,56 +1,103 @@
-/* color definitions
-	FFFBF9 : Background
-	333232 : Dark grey accent
-	DFE5DF : light green
-	C0CBC0 : mid green
-	5B866F : Dark Green */ 
+/* -------------------------Colors --------------------
+	#FFFBF9 : Background
+	#333232 : Dark grey accent
+	#DFE5DF : light green
+	#C0CBC0 : mid green
+	#5B866F : Dark Green 
+	-----------------------------------------------------*/ 
 
 body{
-	background-color: #FFFBF9;
-}
+	background-color: #FFFBF9;}
 
-p{
-	
-}
+p{}
 
-/* Nav bar */
+a{
+	text-decoration: none;
+	color: inherit;}
+
+/* ------------------------Nav bar----------------------- */
 .nav-ef{
 	font-family: 'Playfair Display';font-size: 40px;
 	letter-spacing: .2rem;
-	float: left;
-
-}
-
+	float: left;}
 #nav-list{
 	padding: 10px 0px;
 	font-size: 20px;
-	font-family: 'Lato';
-}
-
+	font-family: 'Lato'}
 .nav-text{
 	font-size: 20px;
 	float: right;
-	list-style-type: none;
+	list-style-type: none;}
+a.nav-link{
+	font-size: 20px;
+	padding: 5px 15px;
+	float: right;}
+a.nav-link:hover{
+	font-size: 20px;
+	background-color: #C0CBC0;}
+header{
+	padding: 30px 0px 30px 0px;
+	height: 120px;}
+
+/* -----------------box on the home page---------------*/
+#home-page-box{
+	background-color: #DFE5DF;
+}
+#home-page-box-h {
+	font-size: 64px;
+	font-family: 'Playfair Display';
+	text-align: center;
+	padding: 0px 60px;}
+#home-page-box-p {
+	font-size: 24px;
+	font-family: 'Lato';
+	text-align: center;
+	padding-top: 50px;}
+#home-page-box-top{
+	height: 170px;}
+/* ------------------Footer------------------------------*/
+footer{
+	padding: 20px 0px;
+}
+
+#footer-h{
+	background-color: #DFE5DF;
+	font-size: 24px;
+	font-family: 'Playfair Display';
+	padding-top: 5px;
+}
+#footer-ul{
+	padding: 10px 30px 0px 0px;
+	
+}
+/*padding: 5px 133.5px;*/
+
+.footer-link{
+	background-color: #DFE5DF;
+
+}
+#footer-space{
+	background-color: #DFE5DF;
 	
 }
 
-a.nav-link{
-	ont-size: 20px;
-	padding: 5px 15px;
-
-	float: right;
-}
-
-a.nav-link:hover{
+.footer-text{
+	list-style-type: none;
+	
+	background-color: #333232;
+	padding: 5px 15px 5px 15px;
+	margin: 0px 5px 0px 5px;
+	border-radius: 20px;
+	font-family: 'Lato';
 	font-size: 20px;
-	background-color: #C0CBC0;
+	display: inline-block;
 }
 
-
-
-header{
-	padding: 30px 0px 30px 0px;
-	height: 100px;
-
+.footer-link{
+	background-color: #333232;
+	color: #FFFBF9;
 }
 
+#footer-top-bottom{
+	height: 20px;
+}
