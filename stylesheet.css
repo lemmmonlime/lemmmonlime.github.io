@@ -113,6 +113,14 @@ a#linkedin:hover{
 	text-decoration: underline;
 }
 
+.contact-spacer{
+	height: 0px;
+}
+
+#contact-page-box-h{
+	font-size: 96px;
+	font-family: 'Playfair Display';
+}
 
 
 
