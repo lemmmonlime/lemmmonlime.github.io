@@ -85,13 +85,13 @@ header{
 	font-size: 64px;
 	font-family: 'Playfair Display';
 	text-align: center;
-	padding: 0px 60px;
+	padding: 0px 40px;
 	color: black;}
 #home-page-box-p {
 	font-size: 24px;
 	font-family: 'Lato';
 	text-align: center;
-	padding-top: 50px;}
+	padding-top: 30px;}
 #home-page-box-top{
 	height: 170px;}
 /* ------------------Footer------------------------------*/
