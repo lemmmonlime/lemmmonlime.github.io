@@ -159,9 +159,9 @@ footer{
 }
 a.green-link{
 	color: #5B866F;
-	text-decoration: none;
+	text-decoration: underline;
 	font-family: 'Lato';
-	font-size: 20px;
+	font-size: 16px;
 }
 a.green-link:hover{
 	text-decoration: underline;
