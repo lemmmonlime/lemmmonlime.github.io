@@ -29,6 +29,12 @@ h3{
 	font-family: 'Playfair Display';
 }
 
+h4{
+	padding: 3px;
+	font-size: 30px;
+	font-family: 'Playfair Display';
+}
+
 p{
 	font-size: 20px;
 	font-family: 'Lato';
@@ -47,6 +53,10 @@ a{
 }
 #orange{
 	background-color: orange;
+}
+
+.green-bkg{
+	background-color: darkred;
 }
 
 a.ul:hover{
@@ -169,6 +179,26 @@ a.green-link:hover{
 
 .project-spacer{
 	height: 30px;
+}
+
+.h4-link{
+	padding: 3px;
+	font-size: 30px;
+	font-family: 'Playfair Display';
+
+}
+
+.h4-link:hover {
+	text-decoration: underline;
+}
+
+ul#side-bar{
+	background-color: #DFE5DF;
+	padding: 10px;
+	list-style-type: circle;
+	list-style-position: inside;
+	
+
 }
 /*------------------Contact------------------------------*/
 a#linkedin{
